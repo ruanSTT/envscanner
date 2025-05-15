@@ -1,0 +1,11 @@
+[project]
+name = "envscaner"
+version = "0.1.0"
+description = "Tool thats scan and identifies Ambient Variables."
+authors = [{ name="Ruan Machado", email="whiterun092@gmail.com }]
+dependencies = ["typer[all]"]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+envscaner = "envscaner.cli:app"
